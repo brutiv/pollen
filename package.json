@@ -8,11 +8,12 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/deploy-commands.js && node src/index.js",
-    "st": "node src/index.js", 
+    "st": "node src/index.js",
     "de": "node src/deploy-commands.js"
   },
   "dependencies": {
     "discord.js": "^14.28.1",
-    "dotenv": "^18.0.10"
+    "dotenv": "^18.0.10",
+    "pg": "^8.23.1"
   }
 }

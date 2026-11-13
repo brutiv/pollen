@@ -1,11 +1,13 @@
+require("dotenv").config();
 const fs = require('node:fs');
 const path = require('node:path');
+const db = require('./utils/db');
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
-require("dotenv").config();
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 client.commands = new Collection();
+client.db = db;
 const foldersPath = path.join(__dirname, 'commands');
 const commandFolders = fs.readdirSync(foldersPath);
 
