@@ -1,0 +1,16 @@
+{
+  "name": "pollen",
+  "version": "0.0.1",
+  "description": "",
+  "license": "ISC",
+  "author": "brutiv",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.28.1",
+    "dotenv": "^18.0.10"
+  }
+}
