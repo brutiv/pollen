@@ -7,7 +7,9 @@
   "type": "commonjs",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/deploy-commands.js && node src/index.js"
+    "start": "node src/deploy-commands.js && node src/index.js",
+    "st": "node src/index.js", 
+    "de": "node src/deploy-commands.js"
   },
   "dependencies": {
     "discord.js": "^14.28.1",
